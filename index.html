@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="estilo.css">
+    <title>First Form</title>
+</head>
+<body>
+    <header>
+        <div class="caixa">
+            <h1>Formulario de inscrição</h1>
+            <br>
+            <strong><p>Complete suas informações</p></strong>
+    
+            <strong><p>Inscrições abertas</p></strong>
+    
+        </div>
+    </header>
+   
+    <main class="principal">
+    
+    </div>		
+
+    <form>
+        
+            <div class="dados-pessoais">
+                <label for="nome"><strong>Nome Completo:</strong></label>
+                <br />
+                <input type="text" name="nome" id="nome" placeholder="Seu Nome" required>
+           
+		        <br>
+            
+                <label for="e-mail"><strong>E-mail:</strong></label>
+                <br />
+                <input type="email" name="E-mail" id="email" placeholder="seuemail@dominio.com" required>
+            
+		        <br>
+           
+                <label for="celular"><strong>Numero de celular:</strong></label>
+                <br />
+                <input type="tel" name="celular" id="celular" placeholder="(xx) xxxxx-xxxx" required>
+           
+		        <br>
+            
+                <label for="nascimento"><strong>Data de Nascimento:</strong></label>
+                <br />
+                <input type="date" name="Data de Nascimento" id="nascimento" required>
+            </div>
+
+
+            <br />
+            <div class="objetivo">
+
+                <br />
+
+                <strong>Qual é o seu objetivo?</strong>
+
+                <br /> <br>
+                
+                <label for="back-end">
+                    <input type="radio" id="back-end" name="devweb" value="back-end">
+                    <strong> Quero ser um desenvolvedor Back-end!</strong>
+                </label>
+                <br>
+
+                <label for="front-end">
+
+                    <input type="radio" id="front-end" name="devweb" value="front-end">
+                    <strong>Quero ser um desenvolvedor Frontend!</strong>
+                </label>
+                <br>
+
+                <label for="fullstack">
+
+                    <input type="radio" id="fullstack" name="devweb" value="fullstack">
+                    <strong>Quero ser um desenvolvedor Fullstack!</strong>
+                </label>
+                <br />
+                <br />
+		    </div>	
+
+
+            
+		
+
+            <div class="informacao">
+
+                <strong>Como você ficou sabendo desse processo?</strong>
+                <br /> <br>
+                
+                <label for="linkedin">
+                <input type="radio" id="linkedin" name="processo" value="linkedin" />
+                <strong>Linkedin</strong>
+                 </label>
+                <br />
+
+                <label for="facebook">
+                <input type="radio" id="facebook" name="processo" value="facebook" />
+                <strong>Facebook</strong>
+                 </label>
+                <br />
+
+                <label for="instagram">
+                <input type="radio" id="instagram" name="processo" value="Instagram" />
+                <strong>Instagram</strong>
+                </label>
+                <br />
+
+                <label for="indicação">
+                <input type="radio" id="indicação" name="processo" value="Indicação de amigos" />
+                <strong>Indicação de amigos</strong>
+                </label>
+                <br />
+                <br />
+            </div>
+            
+            <div class="tecnologias">
+		<br>
+		<br>
+                <strong>Usa alguma dessas tecnologias?</strong>
+                <br /> <br>
+
+                <label for="html">
+                
+                <strong>HTML</strong>
+                <input type="checkbox" id="html" name="tec" value="HTML" />
+                <br /></label>
+
+                <label for="css">
+                    <strong>CSS</strong>
+                    <input type="checkbox" id="css" name="tec" value="css" />
+                </label>
+                
+                 
+                <br />
+
+                <label for="javascript">
+                    <strong>Javascript</strong>
+                    <input type="checkbox" id="javascript" name="tec" value="Javascript" />
+                
+                </label>
+                <br />
+
+                <label for="python">
+                    <strong>Python</strong>
+                    <input type="checkbox" id="python" name="tec" value="python" />
+                
+                </label>
+                <br />
+
+                <label for="php">
+                    <strong>PHP</strong>
+                    <input type="checkbox" id="php" name="tec" value="PHP" />
+                
+                </label>
+                <br />
+
+                <label for="java">
+                    <strong>JAVA</strong>
+                    <input type="checkbox" id="java" name="tec" value="JAVA" />
+                
+                </label>
+                <br />
+
+                <label for="ruby">
+                    <strong>RUBY</strong>
+                    <input type="checkbox" id="ruby" name="tec" value="RUBY" />
+                
+                </label>
+                <br />
+
+                <label for="c#">
+                    <strong>C#</strong>
+                    <input type="checkbox" id="c#" name="tec" value="C#" />
+                
+                </label>
+                <br />
+
+            </div>
+	<div class="historia">
+            <p>Concorda com nossa politica de privacidade?</p>
+            <a href="https://github.com/RafaelSilva308/primeiroFormulario">Politica de privacidade</a>
+            <br />
+            <label for="historia">
+                <br />
+                <strong>Conte um pouco sobre sua história</strong>
+                <input type="text" name="historia" value="" />
+            </label>
+	</div>
+		<br>
+		<br>	
+            
+            <button type="submit"> Enviar </button>
+
+
+
+        </div>
+    </form>
+    
+    </main>
+
+<footer class="rodape">
+    <h1>Rafael Santos da Silva Productions</h1>
+    <br>
+    <p>Este formulario é apenas um projeto pessoal, não tem nenhum intuito de coletar informações</p>
+</footer>
+
+</body>
+</html>

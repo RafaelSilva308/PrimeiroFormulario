@@ -1,0 +1,68 @@
+header{
+    background:rgb(149, 242, 245);
+    padding: 30px 0;
+    
+}
+body{
+    
+    background-color: cyan;
+}
+
+.caixa{
+    position: relative;
+    width: 940px ;
+    min-width: 320px;
+    margin: 0 auto;
+    text-align: center;
+   
+    
+}
+.caixa h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.caixa p{
+    font-size: 22px;
+}
+form{
+    border: 15px solid;
+    color: red;
+    
+}
+.principal{
+    position: relative;
+    width: 940px   ;
+    margin: 0 auto;
+    text-align: center;
+    
+    
+   
+}
+.dados-pessoais, .objetivo, .informacao, .tecnologias, .historia{
+    color: blue;
+}
+
+    
+.tecnologias input{
+    display: block;
+    width: 920px;
+    height: 20px; 
+}
+footer{
+    background: rgb(149, 242, 245);
+    padding: 40px 0;
+    text-align: center;
+}
+.rodape{
+    position: relative;
+   padding: 60px;
+    min-width: 320px;
+    margin: 0 auto;
+    text-align: center;
+}
+.rodape p, h1{
+    font-weight: bold;
+}
+   
+
+
